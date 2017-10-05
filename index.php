@@ -9,20 +9,10 @@
 <body>
     <?php
         //Oefening variabelen
-        $x = 10;
-        $y = 7;
+        $string1 = 'Hello';
+        $string2 = 'World';
 
-        $optellen = $x + $y;
-        $aftrekken = $x - $y;
-        $vermenigvuldigen = $x * $y;
-        $delen = $x / $y;
-        $rest = $x % $y;
-
-        echo 'Optellen: ' . $x . ' + ' . $y . ' = ' . $optellen;
-        echo 'Aftrekken: ' . $x . ' - ' . $y . ' = ' . $aftrekken;
-        echo 'Vermenigvuldigen: ' . $x . ' * ' . $y . ' = ' . $vermenigvuldigen;
-        echo 'Delen: ' . $x . ' / ' . $y . ' = ' . $delen;
-        echo 'Rest van de deling: ' . $rest;
+        echo $string1 . $string2;
     ?>
 </body>
 </html>
